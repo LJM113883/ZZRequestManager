@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ZZRequestManager"
   s.version      = "0.0.1"
-  s.summary      = "A short description of ZZRequestManager."
+  s.summary      = "测试一下 of ZZRequestManager."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     It is a marquee view used on iOS, which implement by Objective-C
                    DESC
 
-  s.homepage     = "http://EXAMPLE/ZZRequestManager"
+  s.homepage     = "https://github.com/LJM113883/ZZRequestManager"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-s.source       = { :git => "http://github.com/LJM113883/ZZRequestManager.git", :tag => "#{s.version}" }
+s.source       = { :git => "https://github.com/LJM113883/ZZRequestManager.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ s.source       = { :git => "http://github.com/LJM113883/ZZRequestManager.git", :
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes/*.{h,m}"
+  s.source_files  = "ZZRequestManager/Classes/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
