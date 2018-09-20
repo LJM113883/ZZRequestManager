@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153D1719E5B5ED14CE3A82CC /* libPods-ZZRequestManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE8DC2E7BCBFC0CE622B358 /* libPods-ZZRequestManager.a */; };
 		A05C35F3211D304A002EA0A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A05C35F2211D304A002EA0A2 /* AppDelegate.m */; };
 		A05C35F6211D304A002EA0A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05C35F5211D304A002EA0A2 /* ViewController.m */; };
 		A05C35F9211D304A002EA0A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05C35F7211D304A002EA0A2 /* Main.storyboard */; };
@@ -14,7 +15,8 @@
 		A05C35FE211D304C002EA0A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05C35FC211D304C002EA0A2 /* LaunchScreen.storyboard */; };
 		A05C3601211D304C002EA0A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A05C3600211D304C002EA0A2 /* main.m */; };
 		A05C360B211D304C002EA0A2 /* ZZRequestManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05C360A211D304C002EA0A2 /* ZZRequestManagerTests.m */; };
-		A05C3618211D4173002EA0A2 /* SS.m in Sources */ = {isa = PBXBuildFile; fileRef = A05C3617211D4173002EA0A2 /* SS.m */; };
+		A07832F6215397BB00D11DCF /* AFHTTPSessionManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = A07832F5215397BB00D11DCF /* AFHTTPSessionManager+RACSupport.m */; };
+		A07832F9215397E900D11DCF /* ZZRequsetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A07832F8215397E900D11DCF /* ZZRequsetManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DE8DC2E7BCBFC0CE622B358 /* libPods-ZZRequestManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZRequestManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F95A6894719ED25FE8FB6F /* Pods-ZZRequestManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZRequestManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZRequestManager/Pods-ZZRequestManager.release.xcconfig"; sourceTree = "<group>"; };
 		A05C35EE211D304A002EA0A2 /* ZZRequestManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZRequestManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05C35F1211D304A002EA0A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A05C35F2211D304A002EA0A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,8 +45,11 @@
 		A05C3606211D304C002EA0A2 /* ZZRequestManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZRequestManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05C360A211D304C002EA0A2 /* ZZRequestManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZRequestManagerTests.m; sourceTree = "<group>"; };
 		A05C360C211D304C002EA0A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A05C3616211D4173002EA0A2 /* SS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SS.h; sourceTree = "<group>"; };
-		A05C3617211D4173002EA0A2 /* SS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SS.m; sourceTree = "<group>"; };
+		A07832F4215397BB00D11DCF /* AFHTTPSessionManager+RACSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+RACSupport.h"; sourceTree = "<group>"; };
+		A07832F5215397BB00D11DCF /* AFHTTPSessionManager+RACSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+RACSupport.m"; sourceTree = "<group>"; };
+		A07832F7215397E900D11DCF /* ZZRequsetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZRequsetManager.h; sourceTree = "<group>"; };
+		A07832F8215397E900D11DCF /* ZZRequsetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZRequsetManager.m; sourceTree = "<group>"; };
+		F2847626F19ABD34E8537F2F /* Pods-ZZRequestManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZRequestManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZRequestManager/Pods-ZZRequestManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				153D1719E5B5ED14CE3A82CC /* libPods-ZZRequestManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +71,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46AE3F08163EA2E9A8F8368D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2847626F19ABD34E8537F2F /* Pods-ZZRequestManager.debug.xcconfig */,
+				91F95A6894719ED25FE8FB6F /* Pods-ZZRequestManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80B56B06AAFBFC501CB64B6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE8DC2E7BCBFC0CE622B358 /* libPods-ZZRequestManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A05C35E5211D304A002EA0A2 = {
 			isa = PBXGroup;
 			children = (
 				A05C35F0211D304A002EA0A2 /* ZZRequestManager */,
 				A05C3609211D304C002EA0A2 /* ZZRequestManagerTests */,
 				A05C35EF211D304A002EA0A2 /* Products */,
+				46AE3F08163EA2E9A8F8368D /* Pods */,
+				80B56B06AAFBFC501CB64B6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,8 +137,10 @@
 		A05C3615211D3717002EA0A2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A05C3616211D4173002EA0A2 /* SS.h */,
-				A05C3617211D4173002EA0A2 /* SS.m */,
+				A07832F4215397BB00D11DCF /* AFHTTPSessionManager+RACSupport.h */,
+				A07832F5215397BB00D11DCF /* AFHTTPSessionManager+RACSupport.m */,
+				A07832F7215397E900D11DCF /* ZZRequsetManager.h */,
+				A07832F8215397E900D11DCF /* ZZRequsetManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -123,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A05C360F211D304C002EA0A2 /* Build configuration list for PBXNativeTarget "ZZRequestManager" */;
 			buildPhases = (
+				F3ECE9E844D28AA3EDB63AC8 /* [CP] Check Pods Manifest.lock */,
 				A05C35EA211D304A002EA0A2 /* Sources */,
 				A05C35EB211D304A002EA0A2 /* Frameworks */,
 				A05C35EC211D304A002EA0A2 /* Resources */,
+				371A4A0E57F38492A7839B62 /* [CP] Embed Pods Frameworks */,
+				F72A74ECD22D2682468A010B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,14 +243,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		371A4A0E57F38492A7839B62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZRequestManager/Pods-ZZRequestManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3ECE9E844D28AA3EDB63AC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZRequestManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72A74ECD22D2682468A010B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZRequestManager/Pods-ZZRequestManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A05C35EA211D304A002EA0A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07832F6215397BB00D11DCF /* AFHTTPSessionManager+RACSupport.m in Sources */,
 				A05C35F6211D304A002EA0A2 /* ViewController.m in Sources */,
-				A05C3618211D4173002EA0A2 /* SS.m in Sources */,
 				A05C3601211D304C002EA0A2 /* main.m in Sources */,
+				A07832F9215397E900D11DCF /* ZZRequsetManager.m in Sources */,
 				A05C35F3211D304A002EA0A2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,6 +457,7 @@
 		};
 		A05C3610211D304C002EA0A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2847626F19ABD34E8537F2F /* Pods-ZZRequestManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -390,6 +475,7 @@
 		};
 		A05C3611211D304C002EA0A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F95A6894719ED25FE8FB6F /* Pods-ZZRequestManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
